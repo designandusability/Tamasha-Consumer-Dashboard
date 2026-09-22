@@ -27,7 +27,7 @@ st.set_page_config(
 # =========================================================
 # CONFIG
 # =========================================================
-SPREADSHEET_NAME = "PlayStore Sentiment-Automated"
+SPREADSHEET_NAME = "Tamasha-Sentiment-Automated"
 
 LOCAL_CREDS_FILE = (
     Path(__file__).resolve().parent
