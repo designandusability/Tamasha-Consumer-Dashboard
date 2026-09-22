@@ -31,7 +31,7 @@ SPREADSHEET_NAME = "PlayStore Sentiment-Automated"
 
 LOCAL_CREDS_FILE = (
     Path(__file__).resolve().parent
-    / "sentiment-automation-caadd9710134.json"
+    / "tamasha-automation-b88a80ac092d.json"
 )
 
 APP_DISPLAY = {
@@ -781,9 +781,6 @@ def get_gspread_client():
         except Exception as error:
             raise RuntimeError(
                 "Google credentials were not found. "
-                "For local use, place "
-                "'sentiment-automation-caadd9710134.json' "
-                "in the same folder as Dashboard.py. "
                 "For Streamlit Cloud, add the credentials "
                 "under [gcp_service_account] in Streamlit Secrets."
             ) from error

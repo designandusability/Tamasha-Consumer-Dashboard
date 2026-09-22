@@ -13,3 +13,9 @@ venv/
 
 # Google service account credentials
 sentiment-automation-caadd9710134.json
+tamasha-automation-b88a80ac092d.json
+
+# Other local secrets
+.env
+.env.*
+.streamlit/secrets.toml
